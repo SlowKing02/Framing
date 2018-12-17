@@ -1,0 +1,17 @@
+import javax.swing.*;
+public class ListDemoFrameExercise extends JFrame
+{
+public ListDemoFrameExercise()
+{
+setTitle( "List Demo Exercise" );
+setSize( 300, 220 );
+setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+JPanel panel = new ListDemoPanelExercise();
+this.add( panel );
+}
+public static void main( String [] args )
+{
+JFrame frame = new ListDemoFrameExercise();
+frame.setVisible( true );
+}
+}
